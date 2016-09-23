@@ -1,0 +1,25 @@
+{
+    "name": "dmitriynyu/chunked-file-reader",
+    "description": "Class ChunkedFileReader helps you to read content from text files without loading whole file contents in RAM.",
+    "type": "library",
+    "keywords": ["files", "file", "chunks", "reader"],
+    "require-dev": {
+        "phpunit/phpunit": "^5.5",
+        "jkuchar/bigfiletools": "^2.0.0",
+        "dmitriynyu/dummy-file-generator": "^1.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Nyu",
+            "email": "nyudmitriy@gmail.com",
+            "homepage": "https://dmitriynyu.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": { },
+    "autoload": {
+        "psr-4": { "ChunkedFileReader\\": "src/" }
+    }
+}
